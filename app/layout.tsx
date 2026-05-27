@@ -3,8 +3,8 @@ import "./globals.css"
 import { Inter } from "next/font/google"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
-import { WhatsAppFloat } from "@/components/whatsapp-float"
-import { CookieConsent } from "@/components/cookie-consent"
+import { WhatsAppFloat } from "@ai-whisperers/whatsapp"
+import { CookieConsent } from "@ai-whisperers/seo"
 import content from "@/content/es.json"
 
 const c = content as any
